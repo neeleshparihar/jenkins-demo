@@ -21,7 +21,7 @@
     }
 }*/
 
-pipelineJob('enrollment-service-job-docker') {
+/*pipelineJob('enrollment-service-job-docker') {
     definition {
         cpsScm {
             scm {
@@ -31,6 +31,22 @@ pipelineJob('enrollment-service-job-docker') {
                     }
                     branch 'master'
                     scriptPath('Jenkinsfile-docker')
+                }
+            }
+        }
+    }
+}*/
+
+pipelineJob('enrollment-service-job-aws') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+                        url 'https://github.com/neeleshparihar/enrollment-service.git'
+                    }
+                    branch 'master'
+                    scriptPath('Jenkinsfile-aws')
                 }
             }
         }
