@@ -20,7 +20,7 @@
         }
     }
 }*/
-/*
+
 pipelineJob('enrollment-service-job-docker') {
     definition {
         cpsScm {
@@ -36,8 +36,8 @@ pipelineJob('enrollment-service-job-docker') {
         }
     }
 }
-*/
 
+/*
 pipelineJob('enrollment-service-job-aws') {
     definition {
         cpsScm {
@@ -53,3 +53,4 @@ pipelineJob('enrollment-service-job-aws') {
         }
     }
 }
+*/
