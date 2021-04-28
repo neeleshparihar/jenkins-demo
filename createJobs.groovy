@@ -27,9 +27,9 @@ pipelineJob('enrollment-service-job-docker') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/neeleshparihar/enrollment-service.git'
+                        url 'https://github.com/neeleshparihar/restaurant-service.git'
                     }
-                    branch 'master'
+                    branch 'main'
                     scriptPath('Jenkinsfile-docker')
                 }
             }
