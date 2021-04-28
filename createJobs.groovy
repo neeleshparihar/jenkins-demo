@@ -21,7 +21,7 @@
     }
 }*/
 
-pipelineJob('enrollment-service-job-docker') {
+pipelineJob('restataurant-service-job-docker') {
     definition {
         cpsScm {
             scm {
